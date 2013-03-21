@@ -9,6 +9,7 @@ gem 'sqlite3'
 
 group :development do
   gem 'better_errors'
+  gem 'sqlite3'
 end
 
 gem "heroku"
