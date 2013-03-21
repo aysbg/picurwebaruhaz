@@ -69,6 +69,7 @@ GEM
       i18n (= 0.6.1)
       multi_json (~> 1.0)
     acts_as_list (0.1.4)
+    addressable (2.3.3)
     akami (1.2.0)
       gyoku (>= 0.4.0)
       nokogiri (>= 1.4.0)
@@ -111,11 +112,20 @@ GEM
       devise (>= 2.1.0.rc)
     erubis (2.7.0)
     eventmachine (1.0.3)
+    excon (0.16.10)
     execjs (1.4.0)
       multi_json (~> 1.0)
     ffaker (1.12.1)
     gyoku (1.0.0)
       builder (>= 2.1.2)
+    heroku (2.35.0)
+      heroku-api (~> 0.3.7)
+      launchy (>= 0.3.2)
+      netrc (~> 0.7.7)
+      rest-client (~> 1.6.1)
+      rubyzip
+    heroku-api (0.3.8)
+      excon (~> 0.16.10)
     highline (1.6.11)
     hike (1.2.1)
     httparty (0.8.3)
@@ -133,6 +143,8 @@ GEM
       actionpack (>= 3.0.0)
       activesupport (>= 3.0.0)
       railties (>= 3.0.0)
+    launchy (2.2.0)
+      addressable (~> 2.3)
     mail (2.5.3)
       i18n (>= 0.4.0)
       mime-types (~> 1.16)
@@ -143,6 +155,7 @@ GEM
       json
     multi_json (1.7.1)
     multi_xml (0.5.3)
+    netrc (0.7.7)
     nokogiri (1.5.8)
     nori (2.0.4)
     orm_adapter (0.4.0)
@@ -151,6 +164,7 @@ GEM
       activesupport (>= 2.3.2)
       cocaine (>= 0.0.2)
       mime-types
+    pg (0.14.1)
     polyamorous (0.5.0)
       activerecord (~> 3.0)
     polyglot (0.3.3)
@@ -188,6 +202,9 @@ GEM
       polyamorous (~> 0.5.0)
     rdoc (3.12.2)
       json (~> 1.4)
+    rest-client (1.6.7)
+      mime-types (>= 1.16)
+    rubyzip (0.9.9)
     sass (3.2.7)
     sass-rails (3.2.6)
       railties (~> 3.2.0)
@@ -280,7 +297,9 @@ PLATFORMS
 DEPENDENCIES
   better_errors
   coffee-rails (~> 3.2.1)
+  heroku
   jquery-rails
+  pg
   rails (= 3.2.13)
   rails-i18n
   sass-rails (~> 3.2.3)

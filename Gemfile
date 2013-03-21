@@ -6,10 +6,20 @@ gem 'rails', '3.2.13'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
-gem 'thin'
 
 group :development do
   gem 'better_errors'
+end
+
+gem "heroku"
+
+group :development, :test do
+  gem 'sqlite3'
+end
+
+group :production do
+  gem 'pg'
+  gem 'thin'
 end
 
 # Gems used only for assets and not required

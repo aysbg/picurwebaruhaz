@@ -103,7 +103,7 @@ hu:
         usage_limit: "Felhasználási korlát"
       property: 
         name: Név
-        presentation: Presentation
+        presentation: "Prezentáció"
       prototype: 
         name: Név
       return_authorization: 
@@ -271,12 +271,13 @@ hu:
   assign_taxons: "Taxonok kijelölése"
   authorization_failure: "Authorization Failure"
   authorized: Authorized
-  available_on: "Available On"
+  available_on: "Elérhető lesz"
   available_taxons: "Lehetséges Taxonok"
   awaiting_return: Awaiting Return
   back: Vissza
   back_end: Back End
   back_to_store: "Vissza az áruházba"
+  back_to_taxonomies_list: "Vissza a taxonómia listához"
   backordered: Előrendelve
   backordering_is_allowed: "Előrendelés %{not} engedélyezett"
   balance_due: "Balance Due"
@@ -332,7 +333,7 @@ hu:
   count: Count
   count_of_reduced_by: "count of '%{name}' reduced by %{count}"
   country: Ország
-  country_based: "Country Based"
+  country_based: "Ország alapú"
   coupon: Kupon
   coupon_code: Kupon kód
   create: Létrehoz
@@ -350,13 +351,19 @@ hu:
   creditcards: Creditcards
   credits: Credits
   current: Current
+  currency_symbol_position: "Pénznem szimbólumának pozíciója"
   customer: Customer
   customer_details: "Customer Details"
   customer_search: "Customer Search"
+  cut: "Kivág"
   date_created: Date created
   date_range: "Date Range"
+  date_picker:
+       format: "formátum"
   debit: Debit
   default: Default
+  default_tax: "alapértelmezett adó"
+  default_tax_zone: "beállítás alapértelmezettnek"
   delete: Töröl
   delivery: Szállítás
   depth: Depth
@@ -365,7 +372,8 @@ hu:
   didnt_receive_confirmation_instructions: "Didn't receive confirmation instructions?"
   didnt_receive_unlock_instructions: "Didn't receive unlock instructions?"
   discount_amount: "Kedvezmény összeg"
-  display: Display
+  display: "Megjelenítés"
+  display_currency: "Pénznem mutatása"
   edit: Szerkeszt
   edit_general_settings: "Általános beállítások szerkesztése"
   editing_billing_integration: Editing Billing Integration
@@ -439,7 +447,7 @@ hu:
   gateway_setting_description: "Select a payment gateway and configure its settings."
   gateway_settings_warning: "If you are changing the gateway type, you must save first before you can edit the gateway settings"
   general: "General"
-  general_settings: "General Settings"
+  general_settings: "Általános Beállítások"
   general_settings_description: "Configure general Spree settings."
   google_analytics: "Google Analytics"
   google_analytics_active: "Aktív"
@@ -457,12 +465,14 @@ hu:
   icon: "Ikon"
   icons_by: "Ikonok készítője "
   image: Kép
+  image_settings: "Képek beállításai"
   images: Képek
   images_for: "Images for"
   in_progress: "Folyamatban"
   include_in_shipment: Include in Shipment
   included_in_other_shipment: Included in another Shipment
   included_in_this_shipment: Included in this Shipment
+  included_price_validation: "Benne van az árban?"
   instructions_to_reset_password: "Töltsd ki a az alábbi mezőt és elküldünk neked egy emailt arról, hogy lehet új jelszót beállítani."
   integration_settings_warning: "If you are changing the billing integration, you must save first before you can edit the integration settings"
   intercept_email_address: Intercept Email Cím
@@ -495,7 +505,7 @@ hu:
   listing_option_types: "Listing Option Types"
   listing_orders: "Listing Orders"
   listing_product_groups: "Listing Product Groups"
-  listing_reports: "Listing Reports"
+  listing_reports: "Riprotok listája"
   listing_tax_categories: "Listing Tax Categories"
   listing_users: "Listing Users"
   live: "Live"
@@ -514,7 +524,7 @@ hu:
   maestro_or_solo_cards: Maestro/Solo cards
   mail_delivery_enabled: "Mail delivery is enabled"
   mail_delivery_not_enabled: "Mail delivery is not enabled"
-  mail_methods: Mail Methods
+  mail_methods: "Email-ezési szokások"
   mail_server_preferences: Mail Server Preferences
   make_refund: Make refund
   mark_shipped: "Szállítottnak jelöl"
@@ -522,7 +532,7 @@ hu:
   max_items: Max Items
   may_be_combined_with_other_promotions: May be combined with other promotions
   meta_description: "Meta Leírás"
-  meta_keywords: "Meta Keywords"
+  meta_keywords: "Meta Kulcsszavak"
   metadata: "Metadata"
   minimal_amount: "Minimal Amount"
   missing_required_information: "Missing Required Information"
@@ -565,6 +575,7 @@ hu:
   next: Következő
   no_items_in_cart: "Kosár üres."
   no_match_found: "Nem található egyezés"
+  no_mail_methods_defined: "Nincs levelezési szokás beállítva"
   no_payment_methods_available: "Can't check out, no payment methods are configured for this environment"
   no_products_found: "Nem található termék"
   no_results: "Nincs eredmény"
@@ -627,10 +638,10 @@ hu:
   order_total: "Rendelés össz"
   order_total_message: "The total amount charged to your card will be"
   order_updated: "Rendelés Frissítve"
-  orders: Rendelések
+  orders: "Rendelések"
   or_over_price: 'Drágábbak'
   other_payment_options: Other Payment Options
-  out_of_stock: "Out of Stock"
+  out_of_stock: "Kifogyott"
   out_of_stock_products: "Kifogyott Termékek"
   over_paid: "Over Paid"
   overview: Összesítés
@@ -644,6 +655,7 @@ hu:
   password_reset_instructions_are_mailed: "Instructions to reset your password have been emailed to you. Please check your email."
   password_reset_token_not_found: "We're sorry, but we could not locate your account. If you are having issues try copying and pasting the URL from your email into your browser or restarting the reset password process."
   password_updated: "Password successfully updated"
+  paste: "Beilleszt"
   path: Path
   pay: pay
   payment: Fizetés
@@ -673,7 +685,7 @@ hu:
   place_order: Megrendelés elküldése
   please_create_user: "Please create a user account"
   powered_by: "Powered by"
-  presentation: Presentation
+  presentation: "Prezentáció"
   preview: Preview
   previous: Previous
   price: Ár
@@ -848,7 +860,7 @@ hu:
   quantity_returned: Visszatért Mennyiség
   quantity_shipped: Szállított Mennyiség
   range: "Range"
-  rate: Rate
+  rate: "Mérték"
   reason: Reason
   recalculate_order_total: "Recalculate order total"
   receive: fogad
@@ -859,6 +871,7 @@ hu:
   registration: Regisztráció
   remember_me: "Emlékezz rám"
   remove: Eltávolít
+  rename: "Átnevez"
   reports: Riportok
   required_for_solo_and_maestro: Required for Solo and Maestro cards.
   resend: Újraküld
@@ -896,6 +909,7 @@ hu:
   searching: Keresés...
   secure_connection_type: Secure Connection Type
   secure_creditcard: Secure Creditcard
+  security_settings: "Biztonsági beállítások"
   select: Select
   select_from_prototype: "Select From Prototype"
   select_preferred_shipping_option: "Select preferred delivery option"
@@ -927,7 +941,7 @@ hu:
   shipped: Shipped
   shipping: Szállítás
   shipping_address: "Szállítási Cím"
-  shipping_categories: "Shipping Categories"
+  shipping_categories: "Szállítás kategóriája"
   shipping_categories_description: "Manage shipping categories to identify which products can be shipped via which method"
   shipping_category: Shipping Category
   shipping_cost: Cost
@@ -948,9 +962,9 @@ hu:
   show_price_inc_vat: "Show price including VAT"
   showing_first_n: "Showing first %{n}"
   sign_up: "Sign up"
-  site_name: "Site Name"
-  site_url: "Site URL"
-  sku: SKU
+  site_name: "Oldal neve"
+  site_url: "Oldal elérése"
+  sku: "SKU (azonosító pl: zold_pulcsi_1)"
   smtp: SMTP
   smtp_authentication_type: SMTP Authentication Type
   smtp_domain: SMTP Domain
@@ -966,6 +980,8 @@ hu:
   spree: 
     date: Date
     time: Time
+    date_picker:
+      format: "kattints hogy megtekintsd"
   spree_gateway_error_flash_for_checkout: "There was a problem with your payment information. Please check your information and try again."
   ssl_will_be_used_in_development_and_test_modes: "SSL will be used in development and test mode if necessary."
   ssl_will_be_used_in_production_mode: "SSL will be used in production mode"
@@ -979,7 +995,7 @@ hu:
   states: Counties
   status: Status
   stop: Stop
-  store: Store
+  store: "Bolt"
   street_address: "Utca"
   street_address_2: "Utca (folytatás)"
   subtotal: Részösszeg
@@ -989,22 +1005,23 @@ hu:
   successfully_updated: "%{resource} has been successfully updated!"
   system: Rendszer
   tax: Adó
-  tax_categories: "Tax Categories"
+  tax_categories: "Adó kategóriák"
   tax_categories_setting_description: "Set up tax categories to identify which products should be taxable."
   tax_category: "Tax Category"
-  tax_rates: "Tax Rates"
+  tax_rates: "Adó Mérték"
   tax_rates_description: Tax rates setup and configuration.
-  tax_settings: "Tax settings"
+  tax_settings: "Adó beállítások"
   tax_settings_description: Basic tax settings.
   tax_total: "Tax Total"
   tax_type: "Tax Type"
   taxon: Taxon
   taxon_edit: Taxon szerkesztése
+  taxon_placeholder: "<Válassz taxont>"
   taxonomies: Taxonómiák
   taxonomies_setting_description: "Taxonómiák kezelése"
   taxonomy_edit: "Taxonómia szerkesztése"
   taxonomy_tree_error: "The requested change has not been accepted and the tree has been returned to its previous state, please try again."
-  taxonomy_tree_instruction: "* Right click a child in the tree to access the menu for adding, deleting or sorting a child."
+  taxonomy_tree_instruction: "* Jobb katt egy menüelemre, a lenyiló menüben tudsz hozzáadni, törölni."
   taxons: Taxonok
   test: "Teszt"
   test_mode: "Teszt Mód"
@@ -1057,7 +1074,8 @@ hu:
     must_be_int: "must be an integer"
     must_be_non_negative: "must be a non-negative value"
   value: Érték
-  variants: Variáns
+  variants: Változatok
+  variant: "Variáns"
   vat: "ÁFA"
   version: Verzió
   view_shipping_options: "View shipping options"

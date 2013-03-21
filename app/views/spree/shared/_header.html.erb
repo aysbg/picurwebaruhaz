@@ -1,0 +1,8 @@
+<br />
+<figure id="logo" data-hook><%= link_to root_path do%><%= image_tag('store/a_baranyok_hallgatnak.png')%><% end %></figure>
+
+<header id="header" class="row" data-hook>
+  <div class="columns six"><br /></div>
+  <%= render :partial => 'spree/shared/nav_bar' %>
+  <%= render :partial => 'spree/shared/main_nav_bar' if store_menu? %>
+</header>
