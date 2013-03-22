@@ -43,4 +43,3 @@ task :install_bundler, :roles => :app do
     run "type -P bundle &>/dev/null || { gem install bundler --no-rdoc --no-ri; }"
 end
 
-after "deploy:setup", "nginx:setup", "nginx:reload"
