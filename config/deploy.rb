@@ -1,5 +1,4 @@
 require "bundler/capistrano"
-require "rvm/capistrano"
 
 set :application, "picurwebaruhaz"
 
@@ -25,6 +24,7 @@ after "deploy:restart", "deploy:cleanup"
 # if you're still using the script/reaper helper you will need
 # these http://github.com/rails/irs_process_scripts
 
+
 # If you are using Passenger mod_rails uncomment this:
  namespace :deploy do
    task :start do ; end
@@ -33,3 +33,10 @@ after "deploy:restart", "deploy:cleanup"
      run "#{try_sudo} touch #{File.join(current_path,'tmp','restart.txt')}"
    end
  end
+
+before "deploy:cold", 
+    "deploy:install_bundler"
+
+task :install_bundler, :roles => :app do
+    run "type -P bundle &>/dev/null || { gem install bundler --no-rdoc --no-ri; }"
+end
