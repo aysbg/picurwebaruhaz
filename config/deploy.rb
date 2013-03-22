@@ -1,10 +1,14 @@
-set :application, "picurwebaruhaz"
-set :repository,  "git://github.com/gwuix2/picurwebaruhaz.git"
-set :user, "gwuix2"
-set :deploy_via, :copy
-set :deploy_to, "/home/#{user}/#{application}"
-set :use_sudo, false
+require "bundler/capistrano"
 
+set :application, "picurwebaruhaz"
+
+set :scm, "git"
+set :repository,  "git://github.com/gwuix2/picurwebaruhaz.git"
+set :branch, "master"
+set :user, "gwuix2"
+set :deploy_to, "/home/#{user}/#{application}"
+
+default_run_options[:pty] = true 
 
 # set :scm, :git # You can set :scm explicitly or Capistrano will make an intelligent guess based on known version control directory names
 # Or: `accurev`, `bzr`, `cvs`, `darcs`, `git`, `mercurial`, `perforce`, `subversion` or `none`
