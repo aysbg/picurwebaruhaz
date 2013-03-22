@@ -1,4 +1,6 @@
+require "rvm/capistrano"
 require "bundler/capistrano"
+
 
 set :application, "picurwebaruhaz"
 
