@@ -92,6 +92,7 @@ GEM
       net-sftp (>= 2.0.0)
       net-ssh (>= 2.0.14)
       net-ssh-gateway (>= 1.1.0)
+    capistrano-nginx (0.1.0)
     climate_control (0.0.3)
       activesupport (>= 3.0)
     cocaine (0.5.1)
@@ -301,6 +302,7 @@ PLATFORMS
 DEPENDENCIES
   better_errors
   capistrano
+  capistrano-nginx
   coffee-rails (~> 3.2.1)
   jquery-rails
   rails (= 3.2.13)

@@ -1,6 +1,6 @@
 require "rvm/capistrano"
 require "bundler/capistrano"
-
+require 'capistrano/nginx/tasks'
 
 set :application, "picurwebaruhaz"
 
