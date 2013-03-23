@@ -39,9 +39,7 @@ after "deploy:restart", "deploy:cleanup"
 before "deploy:cold", 
     "deploy:install_bundler"
 
-task :install_bundler, :roles => :app do
-    run "type -P bundle &>/dev/null || { gem install bundler --no-rdoc --no-ri; }"
-end
+
 
 default_run_options[:pty] = true
 ssh_options[:forward_agent] = true
