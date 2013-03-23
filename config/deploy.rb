@@ -38,30 +38,8 @@ ssh_options[:forward_agent] = true
 after "deploy", "deploy:cleanup" # keep only the last 5 releases
 
 
-namespace :foreman do
-  desc "Export the Procfile to Bluepill's .pill script"
-  task :export, :roles => :app do
-    run "cd #{current_path} && bundle exec foreman export bluepill /gwuix2/#{application}/shared/config"
-    sudo "bluepill load /gwuix2/#{application}/shared/config/#{application}.pill"
-  end
 
-  desc "Start the application services"
-  task :start, :roles => :app do
-    sudo "bluepill #{application} start"
-  end
-
-  desc "Stop the application services"
-  task :stop, :roles => :app do
-    sudo "bluepill #{application} stop"
-  end
-
-  desc "Restart the application services"
-  task :restart, :roles => :app do
-    sudo "bluepill #{application} restart"
-  end
-end
-
-namespace :deploy do
+  namespace :deploy do
   %w[start stop restart].each do |command|
     desc "#{command} unicorn server"
     task command, roles: :app, except: {no_release: true} do
@@ -83,7 +61,7 @@ namespace :deploy do
   
   task :create_symlinks do
     run "ln -nfs #{shared_path}/db/production.sqlite3 #{release_path}/db/production.sqlite3"
-    run " -nfs #{shared_path}/config/ldap.yml #{release_path}/config/ldap.yml"
+    run "ln -nfs #{shared_path}/config/ldap.yml #{release_path}/config/ldap.yml"
     run "ln -nfs #{shared_path}/config/database.yml #{release_path}/config/database.yml"
   end
   
@@ -128,12 +106,7 @@ namespace :unicorn do
   end
 end
 
-after "deploy:restart", "unicorn:restart"
 
 before 'deploy:assets:precompile', 'deploy:symlink_shared'
 
-before 'deploy:start', 'foreman:export'
-after 'deploy:start', 'foreman:start'
-
-before 'deploy:restart', 'foreman:export'
-after 'deploy:restart', 'foreman:restart'
+after "deploy:restart", "unicorn:restart"

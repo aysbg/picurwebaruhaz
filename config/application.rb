@@ -72,5 +72,6 @@ module Picurbolt
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
     config.i18n.default_locale = :hu
+    config.allow_ssl_in_production = false
   end
 end
