@@ -21,26 +21,17 @@ ssh_options[:forward_agent] = true
 
 
 
- namespace :deploy do
+namespace :deploy do
    task :start do ; end
    task :stop do ; end
    task :restart, :roles => :app, :except => { :no_release => true } do
      run "#{try_sudo} touch #{File.join(current_path,'tmp','restart.txt')}"
    end
-   %w[start stop restart].each do |command|
-   desc "#{command} unicorn server"
-   task command, roles: :app, except: {no_release: true} do
-      run "/etc/init.d/unicorn_#{application} #{command}"
-   end
- end
 
 
   task :setup_config, roles: :app do
     sudo "ln -nfs #{current_path}/config/nginx.conf /etc/nginx/sites-enabled/#{application}"
-    sudo "ln -nfs #{current_path}/config/unicorn_init.sh /etc/init.d/unicorn_#{application}"
     run "mkdir -p #{shared_path}/config"
-    put File.read("config/database.example.yml"), "#{shared_path}/config/database.yml"
-    puts "Now edit the config files in #{shared_path}."
   end
   
   
@@ -69,8 +60,8 @@ ssh_options[:forward_agent] = true
       exit
     end
   end
-  before "deploy", "deploy:check_revision"
 end
+
 
 namespace :unicorn do
   desc "Zero-downtime restart of Unicorn"
@@ -93,10 +84,9 @@ namespace :unicorn do
 end
 
 before "deploy:assets:precompile", "deploy:symlink_shared"
+before "deploy", "deploy:check_revision"
 after "deploy:restart", "deploy:cleanup"
 after "deploy:restart", "unicorn:restart"
 after "deploy:setup", "deploy:setup_config"
 after "deploy:finalize_update", "deploy:symlink_config"
-before 'deploy:start', 'foreman:export'
-after 'deploy:start', 'foreman:start'
 
