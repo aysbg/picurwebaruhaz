@@ -36,10 +36,6 @@ after "deploy:restart", "deploy:cleanup"
    end
  end
 
-before "deploy:cold", 
-    "deploy:install_bundler"
-
-
 
 default_run_options[:pty] = true
 ssh_options[:forward_agent] = true
