@@ -20,30 +20,6 @@ default_run_options[:pty] = true
 ssh_options[:forward_agent] = true
 
 
-namespace :foreman do
-  desc "Export the Procfile to Bluepill's .pill script"
-  task :export, :roles => :app do
-    run "cd #{current_path} && bundle exec foreman export bluepill /home/gwuix2/#{application}/shared/config"
-    sudo "bluepill load /home/gwuix2/#{application}/shared/config/#{application}.pill"
-  end
-
-  desc "Start the application services"
-  task :start, :roles => :app do
-    sudo "bluepill #{application} start"
-  end
-
-  desc "Stop the application services"
-  task :stop, :roles => :app do
-    sudo "bluepill #{application} stop"
-  end
-
-  desc "Restart the application services"
-  task :restart, :roles => :app do
-    sudo "bluepill #{application} restart"
-  end
-end
-
-
 
  namespace :deploy do
    task :start do ; end
@@ -124,5 +100,3 @@ after "deploy:finalize_update", "deploy:symlink_config"
 before 'deploy:start', 'foreman:export'
 after 'deploy:start', 'foreman:start'
 
-before 'deploy:restart', 'foreman:export'
-after 'deploy:restart', 'foreman:restart'
