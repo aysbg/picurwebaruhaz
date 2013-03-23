@@ -41,8 +41,8 @@ after "deploy", "deploy:cleanup" # keep only the last 5 releases
 namespace :foreman do
   desc "Export the Procfile to Bluepill's .pill script"
   task :export, :roles => :app do
-    run "cd #{current_path} && bundle exec foreman export bluepill /data/#{application}/shared/config"
-    sudo "bluepill load /data/#{application}/shared/config/#{application}.pill"
+    run "cd #{current_path} && bundle exec foreman export bluepill /gwuix2/#{application}/shared/config"
+    sudo "bluepill load /gwuix2/#{application}/shared/config/#{application}.pill"
   end
 
   desc "Start the application services"
