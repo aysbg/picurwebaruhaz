@@ -11,6 +11,7 @@ group :development do
   gem 'better_errors'
   gem 'capistrano'
   gem 'rvm-capistrano'
+  gem 'foreman'
 end
 
 group :production do

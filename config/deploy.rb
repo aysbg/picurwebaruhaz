@@ -91,14 +91,12 @@ namespace :deploy do
     run "ln -nfs #{shared_path}/config/database.yml #{release_path}/config/database.yml"
   end
   
- namespace :deploy do
-  desc "Symlink shared configs and folders on each release."
+
   task :symlink_shared do
     run "ln -nfs #{shared_path}/config/database.yml #{release_path}/config/database.yml"
     run "ln -nfs #{shared_path}/config/Procfile #{release_path}/Procfile"
     run "ln -nfs #{shared_path}/config/.foreman #{release_path}/.foreman"
   end
-end
   
   after "deploy:finalize_update", "deploy:symlink_config"
 
