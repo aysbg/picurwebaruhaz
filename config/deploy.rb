@@ -93,20 +93,22 @@ namespace :unicorn do
   desc "Zero-downtime restart of Unicorn"
   task :restart, except: { no_release: true } do
     run "kill -s USR2 `cat /tmp/unicorn.[application's name].pid`"
+    puts "Unicorn - 1"
   end
  
   desc "Start unicorn"
   task :start, except: { no_release: true } do
     run "cd #{current_path} ; bundle exec unicorn_rails -c config/unicorn.rb -D"
+    "Unicorn - 2"
   end
  
   desc "Stop unicorn"
   task :stop, except: { no_release: true } do
     run "kill -s QUIT `cat /tmp/unicorn.[application's name].pid`"
+    "Unicorn - 3"
   end
 end
 
-
-before 'deploy:assets:precompile', 'deploy:symlink_shared'
+before "deploy:assets:precompile", "deploy:symlink_shared"
 
 after "deploy:restart", "unicorn:restart"
