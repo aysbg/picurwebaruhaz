@@ -4,7 +4,7 @@ require "bundler/capistrano"
 set :rvm_ruby_string, 'ruby-1.9.3-p392'
 set :rvm_type, :user
 
-server "72.14.183.209", :web, :app, :db, primary: true
+server "198.211.117.84", :web, :app, :db, primary: true
 
 set :application, "picurwebaruhaz"
 set :user, "gwuix2"
