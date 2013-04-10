@@ -312,6 +312,7 @@ DEPENDENCIES
   better_errors
   capistrano
   coffee-rails (~> 3.2.1)
+  execjs
   foreman
   jquery-rails
   pg
