@@ -42,7 +42,6 @@ namespace :deploy do
   
   
   task :create_symlinks do
-    run "ln -nfs #{shared_path}/db/production.sqlite3 #{release_path}/db/production.sqlite3"
     run "ln -nfs #{shared_path}/config/ldap.yml #{release_path}/config/ldap.yml"
     run "ln -nfs #{shared_path}/config/database.yml #{release_path}/config/database.yml"
   end
