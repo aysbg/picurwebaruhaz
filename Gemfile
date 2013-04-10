@@ -2,7 +2,6 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.13'
 
-gem 'sqlite3'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -12,12 +11,15 @@ group :development do
   gem 'capistrano'
   gem 'rvm-capistrano'
   gem 'foreman'
+  gem 'sqlite3'
 end
 
 group :production do
   gem 'unicorn'
   gem 'foreman'
   gem 'therubyracer' 
+  gem 'pg'
+  gem 'execjs'
 end
 
 
@@ -35,3 +37,4 @@ gem 'spree_gateway', :github => 'spree/spree_gateway', :branch => '1-3-stable'
 gem 'spree_auth_devise', :github => 'spree/spree_auth_devise', :branch => '1-3-stable'
 gem 'spree_i18n', :git => 'git://github.com/spree/spree_i18n.git'
 gem 'rails-i18n'
+gem 'spree_static_content', :github => 'spree/spree_static_content', :branch => '1-3-stable'

@@ -979,7 +979,7 @@ hu:
   shipping_methods: "Szállítási Módok"
   shipping_methods_description: "Szállítási módok kezelése"
   shipping_total: "Szállítás össz."
-  shop_by_taxonomy: "Vásárlás %{taxonomy} szerint"
+  shop_by_taxonomy: "%{taxonomy}"
   shopping_cart: "Bevásárló kosár"
   show: Show
   show_active: "Aktívak mutatása"

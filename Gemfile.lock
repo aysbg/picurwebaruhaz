@@ -27,6 +27,14 @@ GIT
       rails-i18n
       spree_core
 
+GIT
+  remote: git://github.com/spree/spree_static_content.git
+  revision: 9c3015dea830dbabd1eb3d87569ff703a8a5c9e4
+  branch: 1-3-stable
+  specs:
+    spree_static_content (1.1.0.beta)
+      spree_core (~> 1.3.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -166,6 +174,7 @@ GEM
       activesupport (>= 2.3.2)
       cocaine (>= 0.0.2)
       mime-types
+    pg (0.14.1)
     polyamorous (0.5.0)
       activerecord (~> 3.0)
     polyglot (0.3.3)
@@ -305,6 +314,7 @@ DEPENDENCIES
   coffee-rails (~> 3.2.1)
   foreman
   jquery-rails
+  pg
   rails (= 3.2.13)
   rails-i18n
   rvm-capistrano
@@ -313,6 +323,7 @@ DEPENDENCIES
   spree_auth_devise!
   spree_gateway!
   spree_i18n!
+  spree_static_content!
   sqlite3
   therubyracer
   uglifier (>= 1.0.3)
