@@ -283,6 +283,7 @@ hu:
   back_to_store: "Vissza az áruházba"
   back_to_taxonomies_list: "Vissza a taxonómia listához"
   back_to_reports_list: "Vissza a riportok listához"
+  back_to_static_pages_list: "statikus oldalak listája"
   backordered: Előrendelve
   backordering_is_allowed: "Előrendelés %{not} engedélyezett"
   balance_due: "Balance Due"
@@ -524,6 +525,7 @@ hu:
   listing_option_types: "Listing Option Types"
   listing_orders: "Listing Orders"
   listing_product_groups: "Listing Product Groups"
+  listing_products: "Termékek listája"
   listing_reports: "Riportok listája"
   listing_tax_categories: "Listing Tax Categories"
   listing_users: "Listing Users"
@@ -615,6 +617,10 @@ hu:
     product_not_deleted: "Product could not be deleted"
     variant_deleted: "Variant has been deleted"
     variant_not_deleted: "Variant could not be deleted"
+  number:
+    currency:
+      format:
+        unit: "Ft"
   on_hand: "Raktáron/db"
   on_demand: "Megrendelésre"
   operation: Operation
@@ -993,7 +999,7 @@ hu:
   sign_up: "Sign up"
   site_name: "Oldal neve"
   site_url: "Oldal elérése"
-  sku: "SKU (azonosító pl: zold_pulcsi_1)"
+  sku: "SKU (egyedi azonosító)"
   smtp: SMTP
   smtp_authentication_type: SMTP Authentication Type
   smtp_domain: SMTP Domain
@@ -1022,6 +1028,9 @@ hu:
   state_based: "State Based"
   state_setting_description: "Administer the list of states/provinces associated with each country."
   states: Counties
+  static_content:
+    editing_page: "szerkesztés:"
+    static_pages: "Statikus oldalak"
   status: "Státusz"
   stop: Stop
   store: "Bolt"
@@ -1060,6 +1069,7 @@ hu:
   this_month: "Aktuális Hónap"
   this_year: "Aktuális Year"
   thumbnail: "Thumbnail"
+  title: "név"
   to_add_variants_you_must_first_define: "To add variants, you must first define"
   to_state: "To State"
   top_grossing_products: "Top Grossing Products"
@@ -1108,6 +1118,7 @@ hu:
   vat: "ÁFA"
   version: Verzió
   view_shipping_options: "View shipping options"
+  visible: "látható"
   void: Void
   website: Website
   weight: Tömeg
