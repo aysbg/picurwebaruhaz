@@ -238,7 +238,8 @@ hu:
   administration: Adminisztráció
   admin:
     mail_methods:
-      testmail_error: "Teszt email sikertelen." 
+      testmail:
+        error: "Teszt email sikertelen." 
   all: "Mind"
   all_departments: Minden részleg
   allow_backorders: "Előrendelés engedélyezett"
