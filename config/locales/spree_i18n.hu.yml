@@ -110,6 +110,13 @@ hu:
         amount: Összeg
       role: 
         name: Név
+      spree/order:
+        completed_at: "befejezve"
+        state: "státusz"
+        number: "rendelés száma"
+        payment_state: "fizetés állása"
+        shipment_state: "szállítás állása"
+        balance_due: "kiegyenlítetlen"
       state: 
         abbr: Rövidítés
         name: Név
@@ -519,19 +526,19 @@ hu:
   last_month: "Előző Hónap"
   last_name: "Vezetéknév"
   last_name_begins_with: "Vezetéknév kezdete"
-  last_year: "Előző Year"
+  last_year: "Előző Év"
   leave_blank_to_not_change: "(leave blank if you don't want to change it)"
   list: Lista
-  listing_categories: "Listing Categories"
-  listing_option_types: "Listing Option Types"
-  listing_orders: "Listing Orders"
+  listing_categories: "Kategóriák listája"
+  listing_option_types: "Opció típusok listája"
+  listing_orders: "Rendelések listája"
   listing_product_groups: "Listing Product Groups"
   listing_products: "Termékek listája"
   listing_reports: "Riportok listája"
   listing_tax_categories: "Listing Tax Categories"
   listing_users: "Listing Users"
   live: "Live"
-  loading: Loading
+  loading: Töltés
   locale_changed: "Nyelv megváltoztatva"
   log_in: "Belépés"
   logged_in_as: "Belépve mint"
@@ -702,7 +709,7 @@ hu:
   payment_processing_failed: "Payment could not be processed, please check the details you entered"
   payment_state: "Füzetés állása"
   payment_states: 
-    balance_due: balance due
+    balance_due: kiegyenlítetlen
     checkout: "kassza"
     completed: "teljesítve"
     credit_owed: credit owed
@@ -1073,7 +1080,7 @@ hu:
   this_year: "Aktuális Year"
   thumbnail: "Thumbnail"
   title: "név"
-  to_add_variants_you_must_first_define: "To add variants, you must first define"
+  to_add_variants_you_must_first_define: "Variánsok megadásához először definiáld"
   to_state: "To State"
   top_grossing_products: "Top Grossing Products"
   total: Összesen
