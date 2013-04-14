@@ -287,7 +287,7 @@ hu:
   back_to_static_pages_list: "statikus oldalak listája"
   backordered: Előrendelve
   backordering_is_allowed: "Előrendelés %{not} engedélyezett"
-  balance_due: "Balance Due"
+  balance_due: "Kiegyenlítetlen"
   best_selling_products: "Best Selling Products"
   best_selling_taxons: "Best Selling Taxons"
   bill_address: "Számlázási Cím"
@@ -324,7 +324,7 @@ hu:
   clone: Klónoz
   code: Kód
   combine: Combine
-  complete: complete
+  complete: kész
   complete_list: "Complete List"
   configuration: Beállítás
   configuration_options: "Beállítási opciók"
@@ -645,15 +645,15 @@ hu:
       subject: "Rendelés Visszaigazolása"
       dear_customer: "Kedves vásárló!"
       instructions: ""
-      order_summary: "Rendelése összesítés:"
+      order_summary: "Rendelése összesítése:"
       subtotal: "Termék összesen:"
       total: "Összesen:"
       thanks: "Köszönjük a megrendelést! Picur Webáruház"
   order_not_in_system: That order number is not valid on this site.
   order_number: Order
   order_operation_authorize: Authorize
-  order_processed_but_following_items_are_out_of_stock: "Your order has been processed, but following items are out of stock:"
-  order_processed_successfully: "Your order has been processed successfully"
+  order_processed_but_following_items_are_out_of_stock: "A rendelést feldolgoztuk, de következő termékek nincsnek készleten:"
+  order_processed_successfully: "A rendelést feldolgoztuk."
   order_state: # keys correspond to Checkout state names:
     # keys correspond to Checkout state names: 
     address: Cím
@@ -966,14 +966,14 @@ hu:
   shipment_number: "Shipment #"
   shipment_state: "Szállítás állása"
   shipment_states: 
-    backorder: backorder
-    partial: partial
-    pending: pending
-    ready: ready
-    shipped: shipped
-  shipment_updated: Shipment Updated
-  shipments: "Shipments"
-  shipped: Shipped
+    backorder: visszaküldés
+    partial: részben
+    pending: várakozik
+    ready: kész
+    shipped: elküldve
+  shipment_updated: "Szállítás frissítve"
+  shipments: "Szállítások"
+  shipped: Szállítva
   shipping: Szállítás
   shipping_address: "Szállítási Cím"
   shipping_categories: "Szállítás kategóriája"
@@ -1033,6 +1033,7 @@ hu:
   static_content:
     editing_page: "szerkesztés:"
     static_pages: "Statikus oldalak"
+    new_page: "Új oldal"
   status: "Státusz"
   stop: Stop
   store: "Bolt"
