@@ -1,37 +1,35 @@
 --- 
 hu: 
-  'no': "Nem"
-  'yes': "Igen"
   5_biggest_spenders: "5 legnagyobb költekező"
-  a_copy_of_all_mail_will_be_sent_to_the_following_addresses: A levél egy másolata a következő címre lesz küldve
-  abbreviation: "Rövidítés"
+  a_copy_of_all_mail_will_be_sent_to_the_following_addresses: "A levél egy másolata a következő címre lesz küldve"
+  abbreviation: Rövidítés
   access_denied: "Hozzáférés megtagadva"
-  account: "Fiók"
+  account: Fiók
   account_updated: "Fiók frissítve!"
-  action: "Művelet"
+  action: Művelet
   actions: 
-    cancel: "Mégsem"
-    create: "Létrehoz"
-    destroy: "Töröl"
+    cancel: Mégsem
+    create: Létrehoz
+    destroy: Töröl
     list: Lista
     listing: Listing
-    new: "Új"
-    update: "Frissít"
-  active: "Aktív"
+    new: Új
+    update: Frissít
+  active: Aktív
   activerecord: 
     attributes: 
       address: 
-        address1: "Cím"
+        address1: Cím
         address2: "Cím (folyt.)"
-        city: "Város"
-        country: "Ország"
+        city: Város
+        country: Ország
         first_name_begins_with: "Keresztnév kezdete"
-        firstname: "Keresztnév"
+        firstname: Keresztnév
         last_name_begins_with: "Vezetéknév kezdete"
-        lastname: "Vezetéknév"
+        lastname: Vezetéknév
         phone: Telefon
-        state: "Állam"
-        zipcode: "Irányítószám"
+        state: Állam
+        zipcode: Irányítószám
       checkout: 
         bill_address: 
           address1: "Számlázási cím utca"
@@ -66,57 +64,47 @@ hu:
       line_item: 
         price: Ár
         quantity: Mennyiség
-      spree/order: 
-        checkout_complete: "Checkout Complete"
-        completed_at: "Elkészült"
-        coupon_code: "Kupon Kód"
-        ip_address: "IP Cím"
-        item_total: "Tétel össz"
-        number: Szám
-        special_instructions: "Speciális Utasítások"
-        state: Állam
-        total: Összesen
       product: 
         available_on: "Elérhető lesz"
         cost_price: "Önköltségi ár"
         description: Leírás
         master_price: "Alap ár"
         name: Név
-        on_hand: "Raktáron"
+        on_hand: Raktáron
         shipping_category: "Szállítási Kategória"
         tax_category: "Adó Kategória"
       product_group: 
-        name: "Név"
+        name: Név
         product_count: "Termék szám"
         product_scopes: "Termék hatáskör"
-        products: "Termékek"
-        url: "URL"
+        products: Termékek
+        url: URL
       product_scope: 
-        arguments: "Argumentum"
-        description: "Leírás"
+        arguments: Argumentum
+        description: Leírás
       promotion: 
-        code: "Kód"
-        description: "Leírás"
-        expires_at: "Lejárat"
-        name: "Név"
-        starts_at: "Kezdet"
+        code: Kód
+        description: Leírás
+        expires_at: Lejárat
+        name: Név
+        starts_at: Kezdet
         usage_limit: "Felhasználási korlát"
       property: 
         name: Név
-        presentation: "Prezentáció"
+        presentation: Prezentáció
       prototype: 
         name: Név
       return_authorization: 
         amount: Összeg
       role: 
         name: Név
-      spree/order:
-        completed_at: "befejezve"
-        state: "státusz"
+      spree/order: 
+        balance_due: kiegyenlítetlen
+        completed_at: befejezve
         number: "rendelés száma"
         payment_state: "fizetés állása"
         shipment_state: "szállítás állása"
-        balance_due: "kiegyenlítetlen"
+        state: státusz
       state: 
         abbr: Rövidítés
         name: Név
@@ -149,8 +137,8 @@ hu:
         one: Cím
         other: Címek
       cheque_payment: 
-        one: Cheque Payment
-        other: Cheque Payments
+        one: "Cheque Payment"
+        other: "Cheque Payments"
       country: 
         one: Ország
         other: Országok
@@ -188,8 +176,8 @@ hu:
         one: Prototípus
         other: Prototípusok
       return_authorization: 
-        one: Return Authorization
-        other: Return Authorizations
+        one: "Return Authorization"
+        other: "Return Authorizations"
       role: 
         one: Szerepkör
         other: Szerepkörök
@@ -231,34 +219,34 @@ hu:
   add_option_value: "Opció Érték hozzáadása"
   add_product: "Termék hozzáadása"
   add_product_properties: "Termék Tulajdonság hozzáadása"
-  add_rule_of_type: típus szabály hozzáadása
+  add_rule_of_type: "típus szabály hozzáadása"
   add_scope: "hatáskör hozzáadása"
   add_state: "Állam hozzáadása"
   add_to_cart: "Kosárba tesz"
   add_zone: "Zóna hozzáadása"
-  additional_item: Járulékos tétel költség
+  additional_item: "Járulékos tétel költség"
   address: Cím
   address_information: "Cím Információ"
   adjustment: Korrekció
-  adjustment_total: Korrekció Összesen
+  adjustment_total: "Korrekció Összesen"
   adjustments: Korrekciók
+  admin: 
+    mail_methods: 
+      testmail: 
+        error: "Teszt email sikertelen."
   administration: Adminisztráció
-  admin:
-    mail_methods:
-      testmail:
-        error: "Teszt email sikertelen." 
-  all: "Mind"
-  all_departments: Minden részleg
+  all: Mind
+  all_departments: "Minden részleg"
   allow_backorders: "Előrendelés engedélyezett"
   allow_ssl_in_production: "SSl production-ban ( ne basztasd )"
-  allow_ssl_to_be_used_when_in_developement_and_test_modes: Allow SSL to be used when in development and test modes
-  allow_ssl_to_be_used_when_in_production_mode: Allow SSL to be used in production mode
+  allow_ssl_to_be_used_when_in_developement_and_test_modes: "Allow SSL to be used when in development and test modes"
+  allow_ssl_to_be_used_when_in_production_mode: "Allow SSL to be used in production mode"
   allowed_ssl_in_production_mode: "SSL will %{not} be used in production"
-  already_registered: Már regisztrált?
-  alt_text: Alternatív Szöveg
-  alternative_phone: Alternatív Telefon
+  already_registered: "Már regisztrált?"
+  alt_text: "Alternatív Szöveg"
+  alternative_phone: "Alternatív Telefon"
   amount: Összeg
-  analytics_trackers: Analytics Trackers
+  analytics_trackers: "Analytics Trackers"
   api: 
     access: "API Access"
     clear_key: "Clear API key"
@@ -272,7 +260,7 @@ hu:
     key_generated: "API key generated"
     no_key: "No key defined"
     regenerate_key: "Regenerate API key"
-  apply: "Alkalmaz"
+  apply: Alkalmaz
   are_you_sure: "Biztos vagy benne"
   are_you_sure_category: "Biztos vagy benne, hogy törölni akarod ezt a kategóriát?"
   are_you_sure_delete: "Biztos vagy benne, hogy törölni akarod ezt a bejegyzést?"
@@ -285,16 +273,16 @@ hu:
   authorized: Authorized
   available_on: "Elérhető lesz"
   available_taxons: "Lehetséges Taxonok"
-  awaiting_return: Awaiting Return
+  awaiting_return: "Awaiting Return"
   back: Vissza
-  back_end: Back End
-  back_to_store: "Vissza az áruházba"
-  back_to_taxonomies_list: "Vissza a taxonómia listához"
+  back_end: "Back End"
   back_to_reports_list: "Vissza a riportok listához"
   back_to_static_pages_list: "statikus oldalak listája"
+  back_to_store: "Vissza az áruházba"
+  back_to_taxonomies_list: "Vissza a taxonómia listához"
   backordered: Előrendelve
   backordering_is_allowed: "Előrendelés %{not} engedélyezett"
-  balance_due: "Kiegyenlítetlen"
+  balance_due: Kiegyenlítetlen
   best_selling_products: "Best Selling Products"
   best_selling_taxons: "Best Selling Taxons"
   bill_address: "Számlázási Cím"
@@ -305,24 +293,24 @@ hu:
   calculator: Kalkulátor
   calculator_settings_warning: "If you are changing the calculator type, you must save first before you can edit the calculator settings"
   cancel: megszakít
-  cancel_my_account: Töröld a fiókomat
-  cancel_my_account_description: "Elégedetlen?"
+  cancel_my_account: "Töröld a fiókomat"
+  cancel_my_account_description: Elégedetlen?
   canceled: Megszakítva
-  cannot_create_returns: Cannot create returns as this order has not shipped yet.
-  cannot_destory_line_item_as_inventory_units_have_shipped: Cannot destory line item as some inventory units have shipped.
+  cannot_create_returns: "Cannot create returns as this order has not shipped yet."
+  cannot_destory_line_item_as_inventory_units_have_shipped: "Cannot destory line item as some inventory units have shipped."
   cannot_perform_operation: "Cannot perform requested operation"
   capture: capture
   card_code: "Card Code"
   card_details: "Card details"
   card_number: "Card Szám"
-  card_type_is: Card type is
+  card_type_is: "Card type is"
   cart: Kosár
   categories: Kategóriák
   category: Kategória
   change: Change
   change_language: "Change Language"
   change_my_password: "Change my password"
-  charge_total: Charge Total
+  charge_total: "Charge Total"
   charged: Charged
   charges: Charges
   checkout: Megrendel
@@ -342,75 +330,74 @@ hu:
   confirm_password: "Jelszó megerősítése"
   continue: Folytat
   continue_shopping: "Vásárlás folytatása"
-  copy_all_mails_to: Copy All Mails To
+  copy_all_mails_to: "Copy All Mails To"
   cost_price: "Önköltségi ár"
   count: Count
   count_of_reduced_by: "count of '%{name}' reduced by %{count}"
   country: Ország
   country_based: "Ország alapú"
   coupon: Kupon
-  coupon_code: Kupon kód
+  coupon_code: "Kupon kód"
   create: Létrehoz
   create_a_new_account: "Új Felhasználó"
-  create_product_group_from_products: Create a new product group from these products
-  create_user_account: Create User Account
+  create_product_group_from_products: "Create a new product group from these products"
+  create_user_account: "Create User Account"
   created_successfully: "Created Successfully"
   credit: Credit
   credit_card: "Credit Card"
   credit_card_capture_complete: "Credit Card Was Captured"
   credit_card_payment: "Credit Card Payment"
   credit_owed: "Credit Owed"
-  credit_total: Credit Total
+  credit_total: "Credit Total"
   creditcard: Creditcard
   creditcards: Creditcards
   credits: Credits
-  current: Current
-  currency: "Pénznem"
+  currency: Pénznem
   currency_symbol_position: "Pénznem szimbólumának pozíciója"
+  current: Current
   customer: Customer
   customer_details: "Customer Details"
   customer_search: "Customer Search"
-  cut: "Kivág"
-  date_created: Date created
-  date_range: "Időtartam"
-  date_picker:
-       format: "formátum"
+  cut: Kivág
+  date_created: "Date created"
+  date_picker: 
+    format: formátum
+  date_range: Időtartam
   debit: Debit
   default: Default
   default_tax: "alapértelmezett adó"
   default_tax_zone: "beállítás alapértelmezettnek"
   delete: Töröl
   delivery: Szállítás
-  depth: "mélység"
+  depth: mélység
   description: Leírás
   destroy: Töröl
-  devise:
-    user_sessions:
-                 user:
-                     signed_out: "Kijelentkeztél!"               
-                     signed_up: "Sikeresen regisztráltál."
-    failure:
+  devise: 
+    failure: 
       invalid: "Felhasználónév vagy jelszó hibás"
-      
-    user_registrations:
-                      user:
-                          signed_up: "Már regisztrált."
+    user_registrations: 
+      user: 
+        signed_up: "Már regisztrált."
+    user_sessions: 
+      user: 
+        signed_out: Kijelentkeztél!
+        signed_up: "Sikeresen regisztráltál."
   didnt_receive_confirmation_instructions: "Didn't receive confirmation instructions?"
   didnt_receive_unlock_instructions: "Didn't receive unlock instructions?"
   discount_amount: "Kedvezmény összeg"
-  display: "Megjelenítés"
+  display: Megjelenítés
   display_currency: "Pénznem mutatása"
   edit: Szerkeszt
   edit_general_settings: "Általános beállítások szerkesztése"
-  editing_billing_integration: Editing Billing Integration
+  editing_billing_integration: "Editing Billing Integration"
   editing_category: "Kategória szerkesztése"
-  editing_mail_method: Levelezési mód szerkesztése
+  editing_mail_method: "Levelezési mód szerkesztése"
   editing_option_type: "Opció típus szerkesztése"
   editing_option_types: "Opció típusok szerkesztése"
-  editing_payment_method: Fizetési mód szerkesztése
+  editing_payment_method: "Fizetési mód szerkesztése"
   editing_product: "Termék szerkesztése"
   editing_product_group: "Termék csoport szerkesztése"
-  editing_promotion: Promóciók szerkesztése
+  editing_promotion: "Promóciók szerkesztése"
   editing_property: "Tulajdonságok szerkesztése"
   editing_prototype: "Prototípusok szerkesztése"
   editing_shipping_category: "Szállítási kategóriák szerkesztése"
@@ -418,22 +405,22 @@ hu:
   editing_state: "Állam szerkesztése"
   editing_tax_category: "Adó kategória szerkesztése"
   editing_tax_rate: "Adó kulcs szerkesztése"
-  editing_tracker: Tracker szerkesztése
+  editing_tracker: "Tracker szerkesztése"
   editing_user: "Felhasználó szerkesztése"
   editing_zone: "Zóna szerkesztése"
   email: Email
   email_address: "Email Cím"
   email_server_settings_description: "Set email server settings."
-  empty: "Üres"
+  empty: Üres
   empty_cart: "Kosár ürítése"
   enable_login_via_login_password: "Use standard email/password"
   enable_login_via_openid: "Use OpenID instead"
-  enable_mail_delivery: Enable Mail Delivery
-  end: "vége"
-  enter_atleast_five_letters: Enter atleast five letters of customer name
-  enter_exactly_as_shown_on_card: Please enter exactly as shown on the card
+  enable_mail_delivery: "Enable Mail Delivery"
+  end: vége
+  enter_atleast_five_letters: "Enter atleast five letters of customer name"
+  enter_exactly_as_shown_on_card: "Please enter exactly as shown on the card"
   enter_password_to_confirm: "(we need your current password to confirm your changes)"
-  environment: "Environment"
+  environment: Environment
   error: error
   errors: 
     messages: 
@@ -444,7 +431,7 @@ hu:
     other: "%{count} errors prohibited this record from being saved"
   event: Event
   existing_customer: "Existing Customer"
-  expiration: "Expiration"
+  expiration: Expiration
   expiration_month: "Expiration Hónap"
   expiration_year: "Expiration Year"
   expiry: Expiry
@@ -454,19 +441,19 @@ hu:
   filter_results: "Találatok szűrése"
   final_confirmation: "Final Confirmation"
   finalize: Finalize
-  finalized_payments: Finalized Payments
-  first_item: First Item Cost
-  first_name: "Keresztnév"
+  finalized_payments: "Finalized Payments"
+  first_item: "First Item Cost"
+  first_name: Keresztnév
   first_name_begins_with: "Keresztnév kezdete"
-  flat_percent: Flat Percent
+  flat_percent: "Flat Percent"
   flat_rate_amount: Amount
   flat_rate_per_item: "Flat Rate (per item)"
   flat_rate_per_order: "Flat Rate (per order)"
   flexible_rate: "Flexible Rate"
   forgot_password: "Elfelejtett jelszó"
-  free_shipping: Free Shipping
-  from_state: From State
-  front_end: Front End
+  free_shipping: "Free Shipping"
+  from_state: "From State"
+  front_end: "Front End"
   full_name: "Teljes Név"
   gateway: Gateway
   gateway_config_unavailable: "Gateway unavailable for environment"
@@ -474,57 +461,57 @@ hu:
   gateway_error: "Gateway Error"
   gateway_setting_description: "Select a payment gateway and configure its settings."
   gateway_settings_warning: "If you are changing the gateway type, you must save first before you can edit the gateway settings"
-  general: "General"
+  general: General
   general_settings: "Általános Beállítások"
   general_settings_description: "Configure general Spree settings."
   google_analytics: "Google Analytics"
-  google_analytics_active: "Aktív"
+  google_analytics_active: Aktív
   google_analytics_create: "Új Google Analytics Fiók létrehozása"
   google_analytics_id: "Analytics ID"
   google_analytics_new: "Új Google Analytics Fiók"
   google_analytics_setting_description: "Manage Google Analytics ID"
-  guest_checkout: Guest Checkout
-  guest_user_account: Checkout as a Guest
-  has_no_shipped_units: has no shipped units
+  guest_checkout: "Guest Checkout"
+  guest_user_account: "Checkout as a Guest"
+  has_no_shipped_units: "has no shipped units"
   height: Magasság
   hello_user: "Hello User"
   history: Történet
-  home: "Főoldal"
-  icon: "Ikon"
+  home: Főoldal
+  icon: Ikon
   icons_by: "Ikonok készítője "
   image: Kép
   image_settings: "Képek beállításai"
   images: Képek
   images_for: "Images for"
-  in_progress: "Folyamatban"
-  include_in_shipment: Include in Shipment
-  included_in_other_shipment: Included in another Shipment
-  included_in_this_shipment: Included in this Shipment
+  in_progress: Folyamatban
+  include_in_shipment: "Include in Shipment"
+  included_in_other_shipment: "Included in another Shipment"
+  included_in_this_shipment: "Included in this Shipment"
   included_price_validation: "Benne van az árban?"
   instructions_to_reset_password: "Töltsd ki a az alábbi mezőt és elküldünk neked egy emailt arról, hogy lehet új jelszót beállítani."
   integration_settings_warning: "If you are changing the billing integration, you must save first before you can edit the integration settings"
-  intercept_email_address: Intercept Email Cím
+  intercept_email_address: "Intercept Email Cím"
   intercept_email_instructions: "Override email recipient and replace with this address."
   invalid_search: "Invalid search criteria."
   inventory: Raktárkészlet
   inventory_adjustment: "Inventory Adjustment"
   inventory_setting_description: "Raktárkészlet beállítások, Előrendelés, Készlethiány"
   inventory_settings: "Raktárkészlet beállítások"
-  is_not_available_to_shipment_address: is not available to shipment address
-  issue_number: Issue Szám
+  is_not_available_to_shipment_address: "is not available to shipment address"
+  issue_number: "Issue Szám"
   item: Tétel
   item_description: "Tétel Leírás"
   item_total: "Tétel Össz"
   item_total_rule: 
     operators: 
-      gt: nagyobb mint
-      gte: nagyobb vagy egyenlő
-  items: "Items"
+      gt: "nagyobb mint"
+      gte: "nagyobb vagy egyenlő"
+  items: Items
   last_14_days: "Előző 14 Nap"
   last_5_orders: "Utolsó 5 Rendelés"
   last_7_days: "Előző 7 Nap"
   last_month: "Előző Hónap"
-  last_name: "Vezetéknév"
+  last_name: Vezetéknév
   last_name_begins_with: "Vezetéknév kezdete"
   last_year: "Előző Év"
   leave_blank_to_not_change: "(leave blank if you don't want to change it)"
@@ -537,43 +524,43 @@ hu:
   listing_reports: "Riportok listája"
   listing_tax_categories: "Listing Tax Categories"
   listing_users: "Listing Users"
-  live: "Live"
+  live: Live
   loading: Töltés
   locale_changed: "Nyelv megváltoztatva"
-  log_in: "Belépés"
+  log_in: Belépés
   logged_in_as: "Belépve mint"
   logged_in_succesfully: "Sikeresen beléptél!"
-  logged_out: "Kiléptél."
+  logged_out: Kiléptél.
   login: Belépés
   login_as_existing: "Belépés létező felhasználóval"
   login_failed: "Login authentication failed."
   login_name: Login
   logout: Kijelentkezés
   look_for_similar_items: "Hasonló termékek"
-  maestro_or_solo_cards: Maestro/Solo cards
+  maestro_or_solo_cards: "Maestro/Solo cards"
   mail_delivery_enabled: "Mail delivery is enabled"
   mail_delivery_not_enabled: "Mail delivery is not enabled"
   mail_methods: "Email-ezési szokások"
-  mail_server_preferences: Mail Server Preferences
-  make_refund: Make refund
+  mail_server_preferences: "Mail Server Preferences"
+  make_refund: "Make refund"
   mark_shipped: "Szállítottnak jelöl"
   master_price: "Alap ár"
   match_rule: "Válassz módot"
-  max_items: Max Items
-  may_be_combined_with_other_promotions: May be combined with other promotions
+  max_items: "Max Items"
+  may_be_combined_with_other_promotions: "May be combined with other promotions"
   meta_description: "Meta Leírás"
   meta_keywords: "Meta Kulcsszavak"
-  metadata: "Metadata"
+  metadata: Metadata
   minimal_amount: "Minimal Amount"
   missing_required_information: "Missing Required Information"
-  month: "Hónap"
-  my_account: "Adataim"
-  my_orders: "Megrendeléseim"
+  month: Hónap
+  my_account: Adataim
+  my_orders: Megrendeléseim
   name: Név
   name_or_sku: "Név vagy SKU"
   new: Új
   new_adjustment: "Új korrekció"
-  new_billing_integration: New Billing Integration
+  new_billing_integration: "New Billing Integration"
   new_category: "Új Kategória"
   new_customer: "Új Vevő"
   new_image: "Új Kép"
@@ -589,7 +576,7 @@ hu:
   new_promotion: "Új Promóció"
   new_property: "Új Tulajdonság"
   new_prototype: "Új Prototípus"
-  new_return_authorization: New Return Authorization
+  new_return_authorization: "New Return Authorization"
   new_shipment: "Új Szállítás"
   new_shipping_category: "Új Szállítási Kategória"
   new_shipping_method: "Új Szállítási Mód"
@@ -603,9 +590,11 @@ hu:
   new_variant: "Új Variáns"
   new_zone: "Új Zóna"
   next: Következő
+  ? "no"
+  : Nem
   no_items_in_cart: "Kosár üres."
-  no_match_found: "Nem található egyezés"
   no_mail_methods_defined: "Nincs levelezési szokás beállítva"
+  no_match_found: "Nem található egyezés"
   no_payment_methods_available: "Can't check out, no payment methods are configured for this environment"
   no_products_found: "Nem található termék"
   no_results: "Nincs eredmény"
@@ -625,12 +614,12 @@ hu:
     product_not_deleted: "Product could not be deleted"
     variant_deleted: "Variant has been deleted"
     variant_not_deleted: "Variant could not be deleted"
-  number:
-    currency:
-      format:
-        unit: "Ft"
-  on_hand: "Raktáron/db"
-  on_demand: "Megrendelésre"
+  number: 
+    currency: 
+      format: 
+        unit: Ft
+  on_demand: Megrendelésre
+  on_hand: Raktáron/db
   operation: Operation
   option_type: "Opció típus"
   option_types: "Opció típusok"
@@ -638,6 +627,7 @@ hu:
   option_values: "Opció Érték"
   options: Opciók
   or: vagy
+  or_over_price: Drágábbak
   ord_qty: "Ord. Qty"
   ord_total: "Ord. Total"
   order: Megrendelés
@@ -649,23 +639,22 @@ hu:
     cancel_email: 
       subject: "Cancellation of Order"
     confirm_email: 
-      subject: "Rendelés Visszaigazolása"
       dear_customer: "Kedves vásárló!"
       instructions: ""
       order_summary: "Rendelése összesítése:"
+      subject: "Rendelés Visszaigazolása"
       subtotal: "Termék összesen:"
-      total: "Összesen:"
       thanks: "Köszönjük a megrendelést! Picur Webáruház"
-  order_not_in_system: That order number is not valid on this site.
+      total: "Összesen:"
+  order_not_in_system: "That order number is not valid on this site."
   order_number: Order
   order_operation_authorize: Authorize
   order_processed_but_following_items_are_out_of_stock: "A rendelést feldolgoztuk, de következő termékek nincsnek készleten:"
   order_processed_successfully: "A rendelést feldolgoztuk."
-  order_state: # keys correspond to Checkout state names:
-    # keys correspond to Checkout state names: 
+  order_state: 
     address: Cím
     adjustments: kiigazítások
-    awaiting_return: visszajuttatásra vár
+    awaiting_return: "visszajuttatásra vár"
     canceled: megszakítva
     cart: Kosár
     complete: Befejezés
@@ -674,21 +663,20 @@ hu:
     payment: Fizetés
     resumed: helyreállított
     returned: visszatért
-  order_summary: Rendelés összesítő
+  order_summary: "Rendelés összesítő"
   order_sure_want_to: "Biztos vagy benne, hogy %{event} ezt a rendelést?"
   order_total: "Rendelés összesen"
   order_total_message: "The total amount charged to your card will be"
   order_updated: "Rendelés Frissítve"
-  orders: "Rendelések"
-  or_over_price: 'Drágábbak'
-  other_payment_options: Other Payment Options
-  out_of_stock: "Kifogyott"
+  orders: Rendelések
+  other_payment_options: "Other Payment Options"
+  out_of_stock: Kifogyott
   out_of_stock_products: "Kifogyott Termékek"
   over_paid: "Over Paid"
   overview: Összesítés
   overview_welcome: "Welcome to your store overview, currently we do not have enough data to display the Overiew Dashboard.<br/><br/> The dashboard will display automatically once the system has sufficent orders to allow generation of the statistics."
-  page_only_viewable_when_logged_in: You attempted to visit a page which can only be viewed when you are logged in
-  page_only_viewable_when_logged_out: You attempted to visit a page which can only be viewed when you are logged out
+  page_only_viewable_when_logged_in: "You attempted to visit a page which can only be viewed when you are logged in"
+  page_only_viewable_when_logged_out: "You attempted to visit a page which can only be viewed when you are logged out"
   paid: Fizetve
   parent_category: "Szülő Kategória"
   password: Jelszó
@@ -696,42 +684,42 @@ hu:
   password_reset_instructions_are_mailed: "Instructions to reset your password have been emailed to you. Please check your email."
   password_reset_token_not_found: "We're sorry, but we could not locate your account. If you are having issues try copying and pasting the URL from your email into your browser or restarting the reset password process."
   password_updated: "Password successfully updated"
-  paste: "Beilleszt"
+  paste: Beilleszt
   path: Path
   pay: pay
   payment: Fizetés
-  payment_actions: "Actions"
+  payment_actions: Actions
   payment_gateway: "Payment Gateway"
   payment_information: "Füzetés Információ"
   payment_method: "Füzetés típus"
-  payment_methods: "Füzetés Típusok
-  payment_methods_setting_description: Configure methods customers can use to pay
+  payment_methods: "Füzetés Típusok"
+  payment_methods_setting_description: "Configure methods customers can use to pay"
   payment_processing_failed: "Payment could not be processed, please check the details you entered"
   payment_state: "Füzetés állása"
   payment_states: 
     balance_due: kiegyenlítetlen
-    checkout: "kassza"
-    completed: "teljesítve"
-    credit_owed: credit owed
-    failed: "meghiúsult"
-    paid: "kifüzetve"
+    checkout: kassza
+    completed: teljesítve
+    credit_owed: "credit owed"
+    failed: meghiúsult
+    paid: kifüzetve
     pending: "sorban áll"
     processing: "feldolgozás alatt"
     void: void
-  payment_updated: Payment Updated
+  payment_updated: "Payment Updated"
   payments: Payments
-  pending_payments: Pending Payments
+  pending_payments: "Pending Payments"
   permalink: Permalink
   phone: Telefon
-  place_order: Megrendelés elküldése
+  place_order: "Megrendelés elküldése"
   please_create_user: "Please create a user account"
   powered_by: "Powered by"
-  presentation: "Prezentáció"
+  presentation: Prezentáció
   preview: Preview
   previous: Previous
   price: Ár
-  price_bucket: Price Bucket
-  price_range: 'Árkategória'
+  price_bucket: "Price Bucket"
+  price_range: Árkategória
   price_with_vat_included: "%{price} (inc. VAT)"
   problem_authorizing_card: "Problem authorizing credit card"
   problem_capturing_card: "Problem capturing credit card"
@@ -740,19 +728,19 @@ hu:
   process: Process
   product: Termék
   product_details: "Termék részletek"
-  product_group: Termék Csoport
-  product_group_invalid: Product Group has invalid scopes
-  product_groups: Termék Csoportok
-  product_has_no_description: Ennek a terméknek nincs leírása
+  product_group: "Termék Csoport"
+  product_group_invalid: "Product Group has invalid scopes"
+  product_groups: "Termék Csoportok"
+  product_has_no_description: "Ennek a terméknek nincs leírása"
   product_properties: "Termék Tulajdonságok"
   product_rule: 
-    choose_products: Choose products
+    choose_products: "Choose products"
     label: "Order must contain %{select} of these products"
     match_all: all
-    match_any: at least one
+    match_any: "at least one"
     product_source: 
-      group: From product group
-      manual: Manually choose
+      group: "From product group"
+      manual: "Manually choose"
   product_scopes: 
     groups: 
       price: 
@@ -769,152 +757,152 @@ hu:
         name: Values
     scopes: 
       ascend_by_master_price: 
-        name: Ascend by product master price
+        name: "Ascend by product master price"
       ascend_by_name: 
-        name: Ascend by product name
+        name: "Ascend by product name"
       ascend_by_updated_at: 
-        name: Ascend by actualization date
+        name: "Ascend by actualization date"
       descend_by_master_price: 
-        name: Descend by product master price
+        name: "Descend by product master price"
       descend_by_name: 
-        name: Descend by product name
+        name: "Descend by product name"
       descend_by_popularity: 
-        name: Sort by popularity(most popular first)
+        name: "Sort by popularity(most popular first)"
       descend_by_updated_at: 
-        name: Descend by actualization date
+        name: "Descend by actualization date"
       in_name: 
         args: 
           words: Words
         description: "(separated by space or comma)"
         name: "Product name have following"
-        sentence: product name contain <em>%s</em>
+        sentence: "product name contain <em>%s</em>"
       in_name_or_description: 
         args: 
           words: Words
         description: "(separated by space or comma)"
         name: "Product name or description have following"
-        sentence: name or description contain <em>%s</em>
+        sentence: "name or description contain <em>%s</em>"
       in_name_or_keywords: 
         args: 
           words: Words
         description: "(separated by space or comma)"
         name: "Product name or meta keywords have following"
-        sentence: name or keywords contain <em>%s</em>
+        sentence: "name or keywords contain <em>%s</em>"
       in_taxons: 
         args: 
-          "taxon_names": "Taxon names"
+          taxon_names: "Taxon names"
         description: "Taxon names have to be separated by comma or space(eg. adidas,shoes)"
         name: "In taxons and all their descendants"
-        sentence: in <em>%s</em> and all their descendants
+        sentence: "in <em>%s</em> and all their descendants"
       master_price_gte: 
         args: 
           amount: Amount
         description: ""
         name: "Master price greater or equal to"
-        sentence: price greater or equal to <em>%.2f</em>
+        sentence: "price greater or equal to <em>%.2f</em>"
       master_price_lte: 
         args: 
           amount: Amount
         description: ""
         name: "Master price lesser or equal to"
-        sentence: price less or equal to <em>%.2f</em>
+        sentence: "price less or equal to <em>%.2f</em>"
       price_between: 
         args: 
           high: High
           low: Low
         description: ""
         name: "Price between"
-        sentence: price between <em>%.2f</em> and <em>%.2f</em>
+        sentence: "price between <em>%.2f</em> and <em>%.2f</em>"
       taxons_name_eq: 
         args: 
           taxon_name: "Taxon név"
         description: "In specific taxon - without descendants"
         name: "In Taxon(without descendants)"
-        sentence: in <em>%s</em>
+        sentence: "in <em>%s</em>"
       with: 
         args: 
           value: Value
         description: "Select specific products"
-        name: Products with IDs
-        sentence: with IDs <em>%s</em>
+        name: "Products with IDs"
+        sentence: "with IDs <em>%s</em>"
       with_ids: 
         args: 
           ids: IDs
         description: "Select specific products"
-        name: Products with IDs
-        sentence: with IDs <em>%s</em>
+        name: "Products with IDs"
+        sentence: "with IDs <em>%s</em>"
       with_option: 
         args: 
           option: Option
         description: "Selects all products that have specified option(eg. color)"
         name: "With option"
-        sentence: with option <em>%s</em>
+        sentence: "with option <em>%s</em>"
       with_option_value: 
         args: 
           option: Option
           value: Value
         description: "Selects all products that have at least one variant with specified option and value(eg. color:red)"
         name: "With option and value"
-        sentence: with option <em>%s</em> and value <em>%s</em>
+        sentence: "with option <em>%s</em> and value <em>%s</em>"
       with_property: 
         args: 
           property: Property
         description: "Selects all products that have specified property(eg. weight)"
         name: "With property"
-        sentence: with property <em>%s</em>
+        sentence: "with property <em>%s</em>"
       with_property_value: 
         args: 
           property: Property
           value: Value
         description: "Selects all products that have at least one variant with specified property and value(eg. weight:10kg)"
         name: "With property value"
-        sentence: with property <em>%s</em> and value <em>%s</em>
+        sentence: "with property <em>%s</em> and value <em>%s</em>"
   products: Termékek
   products_with_zero_inventory_display: "Products with a zero inventory will %{not} be displayed"
-  promotion: "Promóció"
+  promotion: Promóció
   promotion_form: 
     match_policies: 
-      all: Match any of these rules
-      any: Match all of these rules
+      all: "Match any of these rules"
+      any: "Match all of these rules"
   promotion_rule_types: 
     first_order: 
-      description: Must be the customer's first order
-      name: First order
+      description: "Must be the customer's first order"
+      name: "First order"
     item_total: 
-      description: Order total meets these criteria
-      name: Item total
+      description: "Order total meets these criteria"
+      name: "Item total"
     product: 
-      description: Order includes specified product(s)
+      description: "Order includes specified product(s)"
       name: Product(s)
     user: 
-      description: Available only to the specified users
+      description: "Available only to the specified users"
       name: User
   promotions: Promóciók
-  promotions_description: Manage offers and coupons with promotions
+  promotions_description: "Manage offers and coupons with promotions"
   properties: Tulajdonságok
   property: Tulajdonság
   prototype: Prototípus
   prototypes: Prototípusok
-  provider: "Kiszolgáló"
+  provider: Kiszolgáló
   provider_settings_warning: "If you are changing the provider type, you must save first before you can edit the provider settings"
   qty: db
-  quantity_returned: Visszatért Mennyiség
-  quantity_shipped: Szállított Mennyiség
-  range: "Range"
-  rate: "Mérték"
+  quantity_returned: "Visszatért Mennyiség"
+  quantity_shipped: "Szállított Mennyiség"
+  range: Range
+  rate: Mérték
   reason: Reason
   recalculate_order_total: "Recalculate order total"
   receive: fogad
   received: Fogadott
   refund: Visszafizet
-  register: Register as a New User
-  register_or_guest: Checkout as Guest or Register
+  register: "Register as a New User"
+  register_or_guest: "Checkout as Guest or Register"
   registration: Regisztráció
   remember_me: "Emlékezz rám"
   remove: Eltávolít
-  rename: "Átnevez"
+  rename: Átnevez
   reports: Riportok
-  required_for_solo_and_maestro: Required for Solo and Maestro cards.
+  required_for_solo_and_maestro: "Required for Solo and Maestro cards."
   resend: Újraküld
   resend_confirmation_instructions: "Resend confirmation instructions"
   resend_unlock_instructions: "Resend unlock instructions"
@@ -925,40 +913,40 @@ hu:
     successfully_removed: "Successfully removed!"
     successfully_updated: "Successfully updated!"
   response_code: "Response Code"
-  resume: "resume"
+  resume: resume
   resumed: Resumed
   return: return
-  return_authorization: Return Authorization
-  return_authorization_updated: Return authorization updated
-  return_authorizations: Return Authorizations
-  return_quantity: Return Mennyiség
+  return_authorization: "Return Authorization"
+  return_authorization_updated: "Return authorization updated"
+  return_authorizations: "Return Authorizations"
+  return_quantity: "Return Mennyiség"
   returned: Returned
-  rma_credit: RMA Credit
-  rma_number: RMA Number
-  rma_value: RMA Value
+  rma_credit: "RMA Credit"
+  rma_number: "RMA Number"
+  rma_value: "RMA Value"
   roles: Roles
   rules: Rules
   sales_tax: "Sales Tax"
   sales_total: "Összes eladás"
   sales_total_description: "Sales Total For All Orders"
-  save_and_continue: Mentés és Folytatás
-  save_preferences: Save Preferences
+  save_and_continue: "Mentés és Folytatás"
+  save_preferences: "Save Preferences"
   scope: Scope
   scopes: Scopes
   search: Keresés
   search_results: "Search results for '%{keywords}'"
   searching: Keresés...
-  secure_connection_type: Secure Connection Type
-  secure_creditcard: Secure Creditcard
+  secure_connection_type: "Secure Connection Type"
+  secure_creditcard: "Secure Creditcard"
   security_settings: "Biztonsági beállítások"
   select: Select
   select_from_prototype: "Select From Prototype"
   select_preferred_shipping_option: "Select preferred delivery option"
-  send_copy_of_all_mails_to: Send Copy of All Mails To
-  send_copy_of_orders_mails_to: Send Copy of Order Mails To
-  send_mails_as: Send Mails As
+  send_copy_of_all_mails_to: "Send Copy of All Mails To"
+  send_copy_of_orders_mails_to: "Send Copy of Order Mails To"
+  send_mails_as: "Send Mails As"
   send_me_reset_password_instructions: "Send me reset password instructions"
-  send_order_mails_as: Send Order Mails As
+  send_order_mails_as: "Send Order Mails As"
   send_testmail: "teszt email küldés"
   server: Server
   server_error: "The server returned an error"
@@ -966,7 +954,7 @@ hu:
   ship: ship
   ship_address: "Ship Cím"
   shipment: Shipment
-  shipment_details: Shipment Details
+  shipment_details: "Shipment Details"
   shipment_mailer: 
     shipped_email: 
       subject: "Shipment Notification"
@@ -979,7 +967,7 @@ hu:
     ready: kész
     shipped: elküldve
   shipment_updated: "Szállítás frissítve"
-  shipments: "Szállítások"
+  shipments: Szállítások
   shipped: Szállítva
   shipping: Szállítás
   shipping_address: "Szállítási Cím"
@@ -1009,22 +997,22 @@ hu:
   site_url: "Oldal elérése"
   sku: "SKU (egyedi azonosító)"
   smtp: SMTP
-  smtp_authentication_type: SMTP Authentication Type
-  smtp_domain: SMTP Domain
-  smtp_mail_host: SMTP Mail Host
-  smtp_password: SMTP Password
-  smtp_port: SMTP Port
+  smtp_authentication_type: "SMTP Authentication Type"
+  smtp_domain: "SMTP Domain"
+  smtp_mail_host: "SMTP Mail Host"
+  smtp_password: "SMTP Password"
+  smtp_port: "SMTP Port"
   smtp_send_all_emails_as_from_following_address: "Send all mails as from the following address."
   smtp_send_copy_to_this_addresses: "Sends a copy of all outgoing mails to this address. For multiple addresses, separate with commas."
-  smtp_username: SMTP Username
+  smtp_username: "SMTP Username"
   sold: Sold
   sort_ordering: "Sort ordering"
   special_instructions: "Special Instructions"
-  spree:
+  spree: 
     date: Dátum
-    date_picker:
-      format: ! '%Y/%m/%d'
-      js_format: 'yy/mm/dd'
+    date_picker: 
+      format: "%Y/%m/%d"
+      js_format: yy/mm/dd
     time: Idő
   spree_gateway_error_flash_for_checkout: "There was a problem with your payment information. Please check your information and try again."
   ssl_will_be_used_in_development_and_test_modes: "SSL will be used in development and test mode if necessary."
@@ -1032,19 +1020,19 @@ hu:
   ssl_will_not_be_used_in_development_and_test_modes: "SSL will not be used in development and test mode if necessary."
   ssl_will_not_be_used_in_production_mode: "SSL will not be used in production mode"
   start: Start
-  start_date: Valid from
+  start_date: "Valid from"
   state: County
   state_based: "State Based"
   state_setting_description: "Administer the list of states/provinces associated with each country."
   states: Counties
-  static_content:
+  static_content: 
     editing_page: "szerkesztés:"
-    static_pages: "Statikus oldalak"
     new_page: "Új oldal"
-  status: "Státusz"
+    static_pages: "Statikus oldalak"
+  status: Státusz
   stop: Stop
-  store: "Bolt"
-  street_address: "Utca"
+  store: Bolt
+  street_address: Utca
   street_address_2: "Utca (folytatás)"
   subtotal: Részösszeg
   subtract: Subtract
@@ -1057,13 +1045,13 @@ hu:
   tax_categories_setting_description: "Set up tax categories to identify which products should be taxable."
   tax_category: "Adó kategória"
   tax_rates: "Adó Mérték"
-  tax_rates_description: Tax rates setup and configuration.
+  tax_rates_description: "Tax rates setup and configuration."
   tax_settings: "Adó beállítások"
-  tax_settings_description: Basic tax settings.
+  tax_settings_description: "Basic tax settings."
   tax_total: "Tax Total"
   tax_type: "Tax Type"
   taxon: Taxon
-  taxon_edit: Taxon szerkesztése
+  taxon_edit: "Taxon szerkesztése"
   taxon_placeholder: "<Válassz taxont>"
   taxonomies: Taxonómiák
   taxonomies_setting_description: "Taxonómiák kezelése"
@@ -1071,15 +1059,15 @@ hu:
   taxonomy_tree_error: "The requested change has not been accepted and the tree has been returned to its previous state, please try again."
   taxonomy_tree_instruction: "* Jobb katt egy menüelemre, a lenyiló menüben tudsz hozzáadni, törölni."
   taxons: Taxonok
-  test: "Teszt"
+  test: Teszt
   test_mode: "Teszt Mód"
   thank_you_for_your_order: "Thank you for your business.  Please print out a copy of this confirmation page for your records."
   there_were_problems_with_the_following_fields: "There were problems with the following fields"
   this_file_language: "English (UK)"
   this_month: "Aktuális Hónap"
   this_year: "Aktuális Year"
-  thumbnail: "Thumbnail"
-  title: "név"
+  thumbnail: Thumbnail
+  title: név
   to_add_variants_you_must_first_define: "Variánsok megadásához először definiáld"
   to_state: "To State"
   top_grossing_products: "Top Grossing Products"
@@ -1097,38 +1085,38 @@ hu:
   unable_to_connect_to_gateway: "Unable to connect to gateway."
   unable_to_save_order: "Unable to Save Order"
   under_paid: "Under Paid"
-  under_price: 'Olcsóbbak'
-  units: "Egységek"
-  unrecognized_card_type: Unrecognized card type
+  under_price: Olcsóbbak
+  units: Egységek
+  unrecognized_card_type: "Unrecognized card type"
   update: Frissít
   update_password: "Update my password and log me in"
   updated_successfully: "Updated Successfully"
   updating: Frissítés
-  usage_limit: Felhasználási határ
+  usage_limit: "Felhasználási határ"
   use_as_shipping_address: "Használja mint Szállítási Cím"
   use_billing_address: "Használja a Számlázási címet"
   use_different_shipping_address: "Eltérő szállítási cím használata"
   use_new_cc: "Új kártya használata"
   user: Felhasználó
-  user_account: Felhasználói fiók
+  user_account: "Felhasználói fiók"
   user_created_successfully: "Felhasználó sikeresen létrehozva"
   user_details: "Felhasználó Adatai"
   user_rule: 
-    choose_users: Felhasználó választása
+    choose_users: "Felhasználó választása"
   users: Felhasználók
-  validate_on_profile_create: Validate on profile create
+  validate_on_profile_create: "Validate on profile create"
   validation: 
     cannot_be_less_than_shipped_units: "cannot be less than the number of shipped units."
     is_too_large: "is too large -- stock on hand cannot cover requested quantity!"
     must_be_int: "must be an integer"
     must_be_non_negative: "must be a non-negative value"
   value: Érték
+  variant: Variáns
   variants: Változatok
-  variant: "Variáns"
-  vat: "ÁFA"
+  vat: ÁFA
   version: Verzió
   view_shipping_options: "View shipping options"
-  visible: "látható"
+  visible: látható
   void: Void
   website: Website
   weight: Tömeg
@@ -1137,7 +1125,9 @@ hu:
   what_is_this: "What's This?"
   whats_this: "What's this"
   width: Szélesség
-  year: "Év"
+  year: Év
+  ? "yes"
+  : Igen
   you_have_been_logged_out: "You have been logged out."
   you_have_no_orders_yet: "Nincs még megrendelésed."
   your_cart_is_empty: "A kosarad üres"
