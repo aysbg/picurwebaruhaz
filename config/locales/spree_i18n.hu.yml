@@ -702,9 +702,9 @@ hu:
   payment: Fizetés
   payment_actions: "Actions"
   payment_gateway: "Payment Gateway"
-  payment_information: "Payment Information"
-  payment_method: Payment Method
-  payment_methods: Payment Methods
+  payment_information: "Füzetés Információ"
+  payment_method: "Füzetés típus"
+  payment_methods: "Füzetés Típusok
   payment_methods_setting_description: Configure methods customers can use to pay
   payment_processing_failed: "Payment could not be processed, please check the details you entered"
   payment_state: "Füzetés állása"
