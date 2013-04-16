@@ -471,7 +471,7 @@ hu:
   google_analytics_new: "Új Google Analytics Fiók"
   google_analytics_setting_description: "Manage Google Analytics ID"
   guest_checkout: "Guest Checkout"
-  guest_user_account: "Checkout as a Guest"
+  guest_user_account: "Megrendelés mint vendég"
   has_no_shipped_units: "has no shipped units"
   height: Magasság
   hello_user: "Hello User"
@@ -896,7 +896,7 @@ hu:
   received: Fogadott
   refund: Visszafizet
   register: "Register as a New User"
-  register_or_guest: "Checkout as Guest or Register"
+  register_or_guest: "Megrendelés mint vendég"
   registration: Regisztráció
   remember_me: "Emlékezz rám"
   remove: Eltávolít
