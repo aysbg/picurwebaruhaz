@@ -966,7 +966,9 @@ hu:
   shipment_mailer: 
     shipped_email: 
       subject: "Tájékoztató a szállításról"
-
+      dear_customer: "Kedves vásárló!"
+      instructions: "A rendelése feladásra került."
+      thanks: "Köszönjük! Picur Webáruház"
   shipment_number: "Shipment #"
   shipment_state: "Szállítás állása"
   shipment_states: 
