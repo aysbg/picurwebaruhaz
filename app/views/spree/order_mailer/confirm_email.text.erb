@@ -9,12 +9,15 @@
   <%= item.variant.sku %> <%= raw(item.variant.product.name) %> <%= raw(item.variant.options_text) -%> (<%=item.quantity%>) @ <%= item.variant.display_amount %> = <%= item.display_amount %>
 <% end %>
 ============================================================
-<%= @order.display_item_total %>
+Termék összesen: <%= @order.display_item_total %>
 
 <% @order.adjustments.eligible.each do |adjustment| %>
   <%= raw(adjustment.label) %> <%= adjustment.display_amount %>
 <% end %>
 
-<%= @order.display_total %>
+Fizetendő összesen: <%= @order.display_total %>
+
+Megrendelésének feldolgozását elkezdtük. Fizetéssel és szállítással kapcsolatos további információkkal munkatársunk 24 órán belül felveszi Önnel a kapcsolatot az oldalunkon regisztrált email címén. Amennyiben nem érkezne meg levelünk a megadott határidőn belül, kérem keressen meg minket az oldalunkon található elérhetőségek valamelyikén. Köszönjük!
+
 
 <%= t('order_mailer.confirm_email.thanks') %>
