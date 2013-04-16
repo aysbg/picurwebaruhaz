@@ -898,6 +898,7 @@ hu:
   range: Range
   rate: Mérték
   reason: Reason
+  ready: kész
   recalculate_order_total: "Recalculate order total"
   receive: fogad
   received: Fogadott
@@ -1016,7 +1017,7 @@ hu:
   smtp_send_all_emails_as_from_following_address: "Send all mails as from the following address."
   smtp_send_copy_to_this_addresses: "Sends a copy of all outgoing mails to this address. For multiple addresses, separate with commas."
   smtp_username: "SMTP Username"
-  sold: Sold
+  sold: eladva
   sort_ordering: "Sort ordering"
   special_instructions: "Special Instructions"
   spree: 
