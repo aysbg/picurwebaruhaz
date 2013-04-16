@@ -920,8 +920,8 @@ hu:
     successfully_removed: "Successfully removed!"
     successfully_updated: "Successfully updated!"
   response_code: "Response Code"
-  resume: resume
-  resumed: Resumed
+  resume: viszaállít/folytat
+  resumed: visszaállítva/folytatva
   return: return
   return_authorization: "Visszaküldési engedély"
   return_authorization_updated: "Return authorization updated"
