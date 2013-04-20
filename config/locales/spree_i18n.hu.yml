@@ -1130,6 +1130,12 @@ hu:
   vat: ÁFA
   version: Verzió
   view_shipping_options: "View shipping options"
+  views:
+    pagiantion:
+      previous: "Előző"
+      first: "Első"
+      next: "Következő"
+      last: "Utolsó"
   visible: látható
   void: Érvénytelen
   website: Website
